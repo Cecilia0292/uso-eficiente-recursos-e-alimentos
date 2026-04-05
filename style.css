@@ -197,13 +197,15 @@ footer {
   
   .resources-container {
     flex-direction: column;   /* Empilha os recursos */
-    align-items: stretch;
+    align-items: center;
+    width: 100%;
   }
 
   .resources-container .card {
     width: 100%;
-    max-width: none;
+    max-width: 95%;
     margin: 0 0 20px 0;
+    box-sizing: border-box;
   }
 
   h1 {
