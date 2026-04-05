@@ -1,0 +1,70 @@
+/* Fonte e cores gerais */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+h1 {
+  background: #2e7d32; /* verde sustentável */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Subtítulos */
+h2 {
+  color: #2e7d32;
+  border-bottom: 2px solid #c8e6c9;
+  padding-bottom: 5px;
+}
+
+/* Container central */
+body > * {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Listas de links */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #ffffff;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+ul li:hover {
+  transform: scale(1.02);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #1b5e20;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #4caf50;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  background: #2e7d32;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
