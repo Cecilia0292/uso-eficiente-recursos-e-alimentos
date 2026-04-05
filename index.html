@@ -9,22 +9,40 @@
   <h1>Plataforma de Conscientização</h1>
   <p>Links úteis sobre uso eficiente dos recursos e desperdício de alimentos:</p>
 
-  <h2>🎥 Vídeos</h2>
-  <ul>
-    <li><a href="https://www.youtube.com/watch?v=XXXX" target="_blank">Documentário sobre desperdício de alimentos</a></li>
-    <li><a href="https://www.youtube.com/watch?v=YYYY" target="_blank">Receitas de reaproveitamento</a></li>
-  </ul>
+  <div class="card-container">
+  <!-- Card 1 -->
+  <div class="card">
+    <h2>💡 Uso eficiente de recursos</h2>
+    <p>Clique para ver links sobre energia, água e sustentabilidade.</p>
+    <button onclick="toggleContent('recursos')">Ver mais</button>
+    <div id="recursos" class="card-content">
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=abcd" target="_blank">Vídeo sobre economia de energia</a></li>
+        <li><a href="https://www.youtube.com/watch?v=efgh" target="_blank">Dicas para reduzir consumo de água</a></li>
+        <li><a href="https://www.aneel.gov.br/" target="_blank">ANEEL - Agência Nacional de Energia Elétrica</a></li>
+      </ul>
+    </div>
+  </div>
 
-  <h2>📘 Cartilhas</h2>
-  <ul>
-    <li><a href="https://www.fao.org/3/i3347pt/i3347pt.pdf" target="_blank">Cartilha FAO sobre desperdício</a></li>
-    <li><a href="https://www.sebrae.com.br/sites/PortalSebrae/artigos/desperdicio-de-alimentos" target="_blank">Sebrae - desperdício de alimentos</a></li>
-  </ul>
+  <!-- Card 2 -->
+  <div class="card">
+    <h2>🥗 Combate ao desperdício de alimentos</h2>
+    <p>Clique para ver links sobre reaproveitamento e redução de desperdício.</p>
+    <button onclick="toggleContent('alimentos')">Ver mais</button>
+    <div id="alimentos" class="card-content">
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=D5ljHE9gIFA" target="_blank">Documentário sobre desperdício</a></li>
+        <li><a href="https://www.youtube.com/watch?v=cI1HSiiW0ag" target="_blank">Receitas de reaproveitamento</a></li>
+        <li><a href="https://www.fao.org/save-food/pt/" target="_blank">FAO - Save Food</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-  <h2>🌐 Sites</h2>
-  <ul>
-    <li><a href="https://www.mds.gov.br/webrms/desperdicio" target="_blank">Ministério do Desenvolvimento Social</a></li>
-    <li><a href="https://www.fao.org/save-food/pt/" target="_blank">FAO - Save Food</a></li>
-  </ul>
 </body>
+<footer>
+  <p>Plataforma de conscientização - Desenvolvido por RutheCecilia</p>
+  <p>Gran Faculdade - Curso Ciência da Computação - 4º Período</p>
+  <p>Atividade Extensionista</p>
+</footer>
 </html>
