@@ -7,72 +7,73 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Plataforma de Conscientização</h1>
-  <p class="subtitulo">Pequenas atitudes, grandes impactos: contribua para um futuro sustentável 🌱</p>
-
-  <div class="card-container">
-  <!-- Card 1 -->
-  <div class="card">
-    <h2>💡 Uso eficiente de recursos</h2>
-    <p>Clique para ver links sobre energia, água e sustentabilidade.</p>
-    <button onclick="toggleContent('recursos')">Ver mais</button>
-    <div id="recursos" class="card-content">
-      <ul>
-        <li><a href="https://www.youtube.com/watch?v=abcd" target="_blank">Vídeo sobre economia de energia</a></li>
-        <li><a href="https://www.youtube.com/watch?v=efgh" target="_blank">Dicas para reduzir consumo de água</a></li>
-        <li><a href="https://www.aneel.gov.br/" target="_blank">ANEEL - Agência Nacional de Energia Elétrica</a></li>
-      </ul>
+  <header class="hero-banner">
+    <div class="hero-overlay">
+      <h1>Consciência Ativa</h1>
+      <p>Transformando hábitos para um futuro sustentável</p>
+      <a class="hero-btn" href="#conteudos">Explorar conteúdos</a>
     </div>
-  </div>
+  </header>
 
-  <!-- Card 2 -->
-  <div class="card">
-    <h2>🥗 Combate ao desperdício de alimentos</h2>
-    <p>Clique para ver links sobre reaproveitamento e redução de desperdício.</p>
-    <button onclick="toggleContent('alimentos')">Ver mais</button>
-    <div id="alimentos" class="card-content">
-      <ul>
-        <li><a href="https://www.youtube.com/watch?v=D5ljHE9gIFA" target="_blank">Documentário sobre desperdício</a></li>
-        <li><a href="https://www.youtube.com/watch?v=cI1HSiiW0ag" target="_blank">Receitas de reaproveitamento</a></li>
-        <li><a href="https://www.fao.org/save-food/pt/" target="_blank">FAO - Save Food</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
- <!-- Seção de recursos sustentáveis -->
-  <section class= "resources-container">
-    <h2 style="text-align:center; color:#2e7d32; margin-top:40px;">Ferramentas de Consumo Consciente</h2>
+  <div id="conteudos" class="card-container">
     <div class="card">
-      <h2>⚡ Monitore seu gasto de energia</h2>
-      <p>Acesse a simulação de consumo e acompanhe seu uso de energia.</p>
-      <a href="https://portal.elfsm.com.br/consumo/simulacao-de-consumo/" target="_blank">
-        <button>Ir para simulação</button>
+      <h2>💡 Aprenda como economizar energia e água. </h2>
+      <p>Explore soluções práticas aplicáveis no dia a dia.</p>
+      <button onclick="toggleContent('recursos')">Ver mais</button>
+      <div id="recursos" class="card-content">
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=_6tTI1-VsW8" target="_blank" rel="noopener noreferrer">Vídeo - Sobre economia de energia</a></li>
+          <li><a href="https://www.youtube.com/watch?v=oVADyHI9GIg" target="_blank" rel="noopener noreferrer">Vídeo - Dicas como reduzir consumo de água</a></li>
+          <li><a href="https://www.youtube.com/shorts/JgHHUe09pd8" target="_blank" rel="noopener noreferrer">Vídeo - Como Economizar Energia em Casa: 5 Dicas Que Funcionam</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🥗 Descubra como reduzir perdas e reaproveitar melhor os alimentos.</h2>
+      <p>Veja como aplicar no dia a dia.</p>
+      <button onclick="toggleContent('alimentos')">Ver mais</button>
+      <div id="alimentos" class="card-content">
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=RgyqFuMkPVc" target="_blank" rel="noopener noreferrer">Vídeo - Chips de casca de batata doce</a></li>
+          <li><a href="https://panelinha.com.br/blog/reaproveite" target="_blank" rel="noopener noreferrer"> Leitura - Receitas de reaproveitamento</a></li>
+          <li><a href="https://www.youtube.com/watch?v=JTQT9ek_ROQ" target="_blank" rel="noopener noreferrer">Vídeo - Dicas para reaproveitar alimentos</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section class="resources-container">
+    <h2 style="text-align:center; color:#2e7d32; margin-top:40px;">Ferramentas para um Consumo Consciente</h2>
+
+    <div class="card">
+      <h2>⚡ Monitore seu Gasto de Energia</h2>
+      <p>Acesse a simulação de consumo e saiba seu uso de energia.</p>
+      <a href="https://portal.elfsm.com.br/consumo/simulacao-de-consumo/" target="_blank" rel="noopener noreferrer"><button>Calcular Consumo de Energia</button>
       </a>
     </div>
 
     <div class="card">
-    <h2>🚰 Monitore seu Consumo de Água</h2>
-    <p>Acompanhe seu consumo e evite desperdícios.</p>
-    <a href="https://especiais.g1.globo.com/economia/crise-da-agua/calculadora-do-consumo/" target="_blank">
-      <button>Acessar Yágua</button>
-    </a>
-  </div>
+      <h2>🚰 Monitore seu Consumo de Água</h2>
+      <p>Acompanhe seu consumo e evite desperdícios.</p>
+      <a href="https://especiais.g1.globo.com/economia/crise-da-agua/calculadora-do-consumo/" target="_blank" rel="noopener noreferrer"><button>Calcular Consumo de Água</button>
+      </a>
+    </div>
 
-  <div class="card">
-    <h2>🌍 Calcule sua Pegada de Carbono</h2>
-    <p>Descubra seu impacto ambiental e receba dicas de redução.</p>
-    <a href="https://ecoaliza.com.br/calculadora" target="_blank">
-      <button>Calcular Pegada</button>
-    </a>
-  </div>
-</section>
-  
-<footer>
-  <p>Plataforma de conscientização - Desenvolvido por RutheCecilia</p>
-  <p>Gran Faculdade - Curso Ciência da Computação - 4º Período</p>
-  <p>Atividade Extensionista</p>
-</footer>
-  
-<script src="script.js"></script>
+    <div class="card">
+      <h2>🌍 Calcule sua Pegada de Carbono</h2>
+      <p>Descubra seu impacto ambiental e receba dicas de redução.</p>
+      <a href="https://pegadadecarbono.ecoaliza.com.br/?_gl=1*7jmiq6*_ga*MTc5ODc0NjgwOC4xNzc1NDA4Njc5*_ga_L8KTEJ6S4W*czE3NzU0MjQyNjgkbzEkZzEkdDE3NzU0MjQzMzIkajYwJGwwJGgw" target="_blank" rel="noopener noreferrer"><button>Calcular Pegada de Carbono</button>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Consciência Ativa - Sua plataforma de conscientização </p>
+    <p>Gran Centro Universitário - Curso Ciência da Computação - Atividade Extensionista - 4º Período</p>
+    <p>Desenvolvido por Ruthe Cecilia</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
