@@ -125,6 +125,56 @@ footer {
   margin-top: auto; /* empurra o footer para o fim da página */
 }
 
+/* ===== Seção especial ===== */
+section {
+  margin: 40px auto;
+  padding: 20px;
+  background: #e8f5e9;       /* verde bem claro para diferenciar */
+  border: 2px solid #2e7d32; /* borda verde sustentável */
+  border-radius: 10px;
+  max-width: 1000px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+section .card {
+  background: #ffffff;
+  border: 1px solid #c8e6c9;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+section .card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+section .card h2 {
+  color: #1b5e20;
+}
+
+section .card button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section .card button:hover {
+  background: #4caf50;
+}
 /* ========================= */
 /* Responsividade para mobile */
 /* ========================= */
