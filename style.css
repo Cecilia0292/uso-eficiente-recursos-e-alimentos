@@ -15,7 +15,6 @@ h1 {
   padding: 20px;
   margin: 0;
 }
-
 .subtitulo {
   text-align: center;
   font-size: 18px;
@@ -28,7 +27,6 @@ h1 {
   border-radius: 8px;
   display: inline-block;
 }
-
 
 /* Container de cards */
 .card-container {
