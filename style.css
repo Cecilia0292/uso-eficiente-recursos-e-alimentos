@@ -201,8 +201,8 @@ footer {
   }
 
   .resources-container .card {
-    width: 95%;
-    max-width: 700px;
+    width: 100%;
+    max-width: 95%;
     margin-bottom: 20px;
   }
 
