@@ -136,8 +136,8 @@ footer {
   }
 
   .card {
-    width: 95%;              /* Ocupa quase toda a largura */
-    max-width: 700px;
+    width: 100%;              /* Ocupa quase toda a largura */
+    max-width: 600px;
   }
   h1 {
     font-size: 22px;         /* Reduz título */
