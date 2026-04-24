@@ -1,12 +1,12 @@
 # Consciência Ativa – Uso eficiente de recursos e combate ao desperdício de alimentos
 
-Este projeto faz parte de uma **atividade extensionista** voltada para promover hábitos sustentáveis, destacando:
-- Uso eficiente de energia e água
+Este projeto faz parte de uma **atividade extensionista** voltada para promover hábitos sustentáveis, por meio da criação da plataforma Consciência Ativa, destacando:
+- Dicas no uso eficiente de energia e água
 - Combate ao desperdício de alimentos
 - Consumo consciente e responsabilidade ambiental
 
 ## Objetivos
-- Sensibilizar a comunidade sobre práticas sustentáveis
+- Sensibilizar a comunidade sobre práticas sustentáveis com dicas de receitas e uso consciente
 - Oferecer ferramentas digitais acessíveis para aprendizado
 - Incentivar a reutilização de alimentos e redução de desperdício
 
